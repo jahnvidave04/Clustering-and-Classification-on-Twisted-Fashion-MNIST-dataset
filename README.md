@@ -1,5 +1,5 @@
 # Clustering-and-Classification-on-Twisted-Fashion-MNIST-dataset
-Performed Clustering
+
 **Objectives Achieved:**
 
 **Twisted Fashion MNIST Dataset**
