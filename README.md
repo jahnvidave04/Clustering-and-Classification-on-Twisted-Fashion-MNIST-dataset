@@ -1,4 +1,5 @@
 # Clustering-and-Classification-on-Twisted-Fashion-MNIST-dataset
+# We did clustering of Fashion MNIST dataset which only had 5 classes
 
 **Objectives Achieved:**
 
