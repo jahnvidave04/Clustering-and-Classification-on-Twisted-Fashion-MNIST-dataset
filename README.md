@@ -31,32 +31,56 @@ Overall, the data preprocessing function helps to ensure that the input data is 
 
 **•	Classify the data using a Convolutional Neural Network with the following architecture:**
 o	input features x
+
 o	convolutional layer with 32, 3x3 filters, stride 1, padding 1x1
+
 o	 max pooling layer 2,2
+
 o	convolutional layer with 32, 3x3 filters, stride 1, padding 1x1
+
 o	flatten the output
+
 o	output layer: one fully connected layer with five output values
+
 o	a softmax layer to transform the outputs into a multi-class probability distribution for classification
+
 o	activation functions: internal layers all use ReLU activation
+
 o	optimizer : Stochastic Gradient Descent
+
 Accuracy of 92.26% and total loss of 21.87% achieved
 
 **•	My own designed architecture:**
 o	input features x
+
 o	activation function:Leaky ReLu
+
 o	max pooling layer 2,2
+
 o	convolutional layer with 32, 3x3 filters, stride 1, padding 1x1
+
 o	max pooling layer 2,2
+
 o	convolutional layer with 32, 3x3 filters, stride 1, padding 1x1
+
 o	max pooling layer 2,2
+
 o	convolutional layer with 32, 3x3 filters, stride 1, padding 1x1
+
 o	activation function:Leaky ReLu
+
 o	max pooling layer 2,2
+
 o	flatten the output
+
 o	Dense layer
+
 o	activation function:Leaky ReLu
+
 o	Dense Layer
+
 o	optimizer : Stochastic Gradient Descent
+
 Accuracy loss: 22.35% - accuracy: 94.07% achieved.
 
 I designed 3 models similar to this and below is the accuracy graph.
